@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>G&G</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+<div >
+    <header class="site-navbar" role="banner">
+        <!-- top nav -->
+        <div class="navbar na">
+        <div class="container">
+            
+           <div class="col-lg-3">
+            <form class="navbar-form navbar-left sea" action="shop.html">
+                
+                <div class="input-group">
+            <div class="input-group-btn  ">
+            <button class="btn btn-default form-control" type="submit"  >
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+                    <input type="text" class="form-control" placeholder="Search" name="search">
+            
+      </div>
+    </form>
+               </div>
+            <div class="col-lg-4 ">
+        <div class="navbar-header g&g ">
+            <a class="navbar-brand bd" href="index.html"><H1>G&G</H1></a>
+            </div> 
+            </div>
+        <ul class="nav navbar-nav navbar-right" id="carts">
+         <li><a class="logo" href="signin.html"><span class="fa fa-user"></span></a></li>
+            <li><a class="logo" href="cart.html"><span class="fa fa-shopping-cart"></span></a></li>   
+            </ul>
+        </div>
+            
+        </div>
+        <!-- 2nd nav bar -->
+        <nav class=" navbar">
+            <div class="container ">
+                
+        <ul class="nav navbar-nav navbar2">
+            <li class="active"><a href="index.html">HOME</a></li>
+            <li><a href="shop.html">STORE</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+                </div>
+        </nav>     
+     
+    </header>
+    <div class="bg-light py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-0"><a href="index.html">Home</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Sign In</strong></div>
+        </div>
+      </div>
+    </div> 
+        <div class="site-section">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6 mb-5 mb-md-0">
+            <h2 class="h3 mb-3 text-black">Create a Account</h2>
+            <div class="p-3 p-lg-5 border">
+              <div class="form-group">
+                <label for="c_country" class="text-black">Country <span class="text-danger">*</span></label>
+                <select id="c_country" class="form-control">
+                  <option value="1">Select a country</option>    
+                  <option value="2">Nepal</option>    
+                  <option value="3">India</option>    
+                  <option value="4">Bhutan</option>    
+               >    
+                </select>
+              </div>
+              <div class="form-group row">
+                <div class="col-md-6">
+                  <label for="c_fname" class="text-black">First Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="c_fname" name="c_fname">
+                </div>
+                <div class="col-md-6">
+                  <label for="c_lname" class="text-black">Last Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="c_lname" name="c_lname">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <label for="c_companyname" class="text-black">Company Name </label>
+                  <input type="text" class="form-control" id="c_companyname" name="c_companyname">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <label for="c_address" class="text-black">Address <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="c_address" name="c_address" placeholder="Street address">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Apartment, suite, unit etc. (optional)">
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-6">
+                  <label for="c_state_country" class="text-black">State / Country <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="c_state_country" name="c_state_country">
+                </div>
+                <div class="col-md-6">
+                  <label for="c_postal_zip" class="text-black">Posta / Zip <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="c_postal_zip" name="c_postal_zip">
+                </div>
+              </div>
+
+              <div class="form-group row mb-5">
+                <div class="col-md-6">
+                  <label for="c_email_address" class="text-black">Email Address <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="c_email_address" name="c_email_address">
+                </div>
+                <div class="col-md-6">
+                  <label for="c_phone" class="text-black">Phone <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" id="c_phone" name="c_phone" placeholder="Phone Number">
+                </div>
+              </div>
+
+              <div class="form-group">
+                      <label for="c_account_password" class="text-black">Account Password</label>
+                      <input type="email" class="form-control" id="c_account_password" name="c_account_password" placeholder="">
+              </div>
+                <div class="form-group">
+                    <button class="btn btn-primary btn-lg py-3 btn-block" onclick="window.location='home.html'">Sign In </button>
+                  </div>
+
+              
+              
+
+            </div>
+          </div>
+          </div>
+            </div>
+    </div>
+    </div>
+    </body>
+</html>
