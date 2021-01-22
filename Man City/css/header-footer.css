@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+a{
+  text-decoration: none;
+}
+.log{
+    font-size:10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 15PX;
+    padding-left: 63%;
+    font-weight: 700;
+}
+#main-header__logo {
+  background-color: #98c5e9;
+  padding: 15px;
+   display: flex;
+}
+
+#nava{
+  list-style: none;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #98c5e9;
+  z-index: 500;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #00285e;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+#navbar a:hover {
+  border-bottom:4px solid;
+  
+}
+
+#logos{
+  display: none;
+  float: left;
+}
+
+#crest_125{
+}
+
+.store{
+  positon:absolute;
+  right: 0px; 
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+
+/* Footer */
+
+#footer{
+  overflow: hidden;
+  background-color: #98c5e9;
+
+}
+
+.fot{
+  list-style: none;
+}
+
+#footer a {
+  float: left;
+  padding: 10px 10px;
+
+}
+
+
+.flogo{
+  width: 14x;
+  height: 14px;
+  padding: :2px 2px;
+  filter: brightness(0) invert(1);
+}
+.flogo:hover{
+  height: 16px;
+  filter: opacity(100%);
+
+}
+

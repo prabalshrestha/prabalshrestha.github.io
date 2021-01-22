@@ -1,0 +1,222 @@
+body{
+	margin: 0;
+	padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h3{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+.pageheader{
+    background-image: linear-gradient(to bottom, #308ad2, #72b4e9);
+    color: #FFFFFF;
+    min-height: 110px;
+    padding-top: 10px;
+    padding-bottom: 150px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: -145px;
+
+}
+
+.container{
+	position: relative;
+	width: 35%;
+	margin-left:auto;
+	margin-right:auto; 
+}
+
+#crest{
+	float: left;
+	position: absolute;
+	top: 20px;
+    left: 10%;
+    width: 56px;
+    height: 56px;
+}
+#login{
+	float: left;
+	font-size: 23px;
+    line-height: 1;
+    font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 4%;
+   	text-align: center;
+    overflow: hidden;
+    /*box-shadow:         3px 3px 5px 1px #ccc;
+    */
+}
+#login h1{
+    border-bottom: solid;
+   	border-color: #72E9FF;
+    padding-bottom: 10px;
+   	border-width: 7px;
+   	margin-block-start: 7%;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#tab{
+    width: 480px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    position: relative;
+}
+#tab ul{
+    list-style: none;
+}
+.button1{
+    position: relative;
+    padding:10px;
+    height: 6%;
+    width: 50%;
+    max-width: 175px;
+    background: #FFFFFF;
+    color: #2F3133;
+    border: none;
+    font-size: 14px; 
+    line-height: 1.43;    
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    transition: all 200ms ease-out;
+
+}
+
+.button2{
+    position: relative;
+    padding:10px;
+    height: 6%;
+    width: 50%;
+    max-width: 175px;    
+    background: #696B6D;
+    color: #FFFFFF;
+    border-width: 0;
+    font-size: 14px; 
+    line-height: 1.43;    
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    transition: all 200ms ease-out;
+    
+}
+
+#formcontainer{
+    width: 480px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;  
+    background: #FFFFFF;
+    position: relative;
+    padding: 10px 40px 30px;
+    min-height: 300px;
+    max-width: 100%;
+    min-width: 100%;
+    box-shadow: 2px 4px 9px 0 rgba(0, 40, 94, 0.2);
+}
+.heading{
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+}
+.butt-bar{
+    display: flex;
+}
+.social-butt{
+    font-size: 14px;
+    margin-right: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: transparent;
+    border: solid 1px #EDEDED;
+    line-height: 1.43;
+    letter-spacing: 1.1px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 8px 8px;
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    position: relative
+}
+.social-butt-img{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.text-input{
+        font-size: 16px;
+    color: #2F3133;
+    padding: 8px 0;
+    width: 100%;
+    border: none;
+    border-bottom: solid #F6F6F8 2px;
+    transition: all 200ms ease-out;
+    background: transparent;
+    caret-color: #98C5E9;
+}
+.field{
+    
+    border: 0;
+    margin: 0;
+    padding: 16px 0 0;
+    min-width: 0;
+    background: #FFFFFF;
+}
+.eform{
+    font-size: 16px;
+    color: #2F3133;
+    padding: 8px 0;
+    width: 100%;
+    border: none;
+    border-bottom: solid #F6F6F8 2px;
+    transition: all 200ms ease-out;
+    background: transparent;
+    caret-color: #98C5E9;
+    overflow: visible;
+}
+.eform:active{
+    outline: none;
+    border-bottom-color: #98C5E9;
+}
+.forget{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #00285E;
+
+}
+.login-butt{
+padding: 20px 0 10px;
+}
+.loginn{
+        background: #00285E;
+    color: #FFFFFF;
+    border: solid 1px #00285E;
+        font-size: 14px;
+    margin-right: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: solid 1px #EDEDED;
+    line-height: 1.43;
+    letter-spacing: 1.1px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 8px 8px;
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    position: relative
+}

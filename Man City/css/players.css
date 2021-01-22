@@ -1,0 +1,132 @@
+.container {
+	width:65%;
+	margin-left: auto;
+	margin-right: auto; 
+	padding-right: 24px;
+	padding-left: 24px;
+}
+p{
+	margin-top: 0;
+	margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+img{
+	border-style: none;
+}
+a{
+	background-color: transparent;
+}
+h3{
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 700;
+}
+.month h2{
+	color: #98c5e9;
+	display: flex;
+    font-size: 36px;
+    line-height: 1.06;
+    letter-spacing: -1px; 
+    margin-bottom: 20px;
+}
+.player{
+	overflow-x: visible;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box-container{
+	 overflow-x: visible;
+    list-style: none;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box{
+	width: 229px;
+	height: 264px;
+    margin-right: 19px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 16px 0 rgba(0,40,94,.3);
+}
+.list{
+	display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+
+}
+.mem-card{
+	position: relative;
+    width: 100%;
+    height: 100%;
+    background: #ebf4fb;
+}
+.upper-box{
+	position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+    background: #ebf4fb;
+}
+.player-image{
+	width: 180px;
+    height: 180px;
+    position: relative;
+    z-index: 1;
+    height: auto;
+}
+.flag{
+	bottom: 15px;
+    left: 15px;
+    position: absolute;
+    z-index: 2;
+    width: 32px;
+    height: 32px;
+    background: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0,40,94,.6);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.country-flag{
+	width: 100%;
+    height: auto;
+    font-size: 7px;
+    text-align: center;
+}
+.num{
+	font-size: 88px;
+	position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    margin-right: -.07em;
+    font-family: Gotham,sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    color: #98c5e9;
+    letter-spacing: -4px;
+    transition: color .2s ease-in-out;
+}
+
+.player-name{
+	padding: 12px;
+	height: 52px;
+	position: relative;
+	display: flex;
+	background: #fff;
+}
+.full-name{
+	font-size: 24px;
+	color: #00285e;
+	margin: 0;
+}
+.name{
+	display: block;
+    letter-spacing: .3px
+}

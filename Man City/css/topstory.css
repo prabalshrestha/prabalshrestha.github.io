@@ -1,0 +1,67 @@
+#tit{
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+#title,h1{
+	font-weight: 700;
+	font-family: Gotham,sans-serif;
+	margin: 2px 0 0;
+	font-size: 40px;
+	letter-spacing: -1px;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	margin-bottom: 13px;
+}
+
+
+
+
+#heading{
+	width: 40%;
+	margin:0 auto;
+}
+
+#heading h1{
+	font-size: 22px;
+    line-height: 1.27;
+    color: #2f3133;
+    font-weight: 700;
+}
+
+
+#mimg{
+	width: 55%;
+	height:55%;
+	margin: 0 auto;	
+}
+#mimg img{
+	width: 100%;
+	height: 100%;
+}
+
+.txt{
+	width: 40%;
+	margin:0 auto;
+}
+.txt p{
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: 400;
+}
+.pics{
+	width: 	35%;
+	height:39%;
+	margin:0 auto;
+}
+.pics img{
+	width: 100%;
+	height: 100%;	
+}
